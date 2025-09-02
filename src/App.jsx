@@ -13,7 +13,6 @@ const mockCategories = [
 const mockExpenses = [
   { id: '1', amount: 45.50, date: '2025-08-20', category: 'Sakafo', description: 'Lunch at restaurant', type: 'one-time', hasReceipt: true },
   { id: '2', amount: 1200, date: '2025-08-01', category: 'Fampiasam-bola', description: 'Monthly rent', type: 'recurring', startDate: '2025-01-01', endDate: null, hasReceipt: false },
-  { id: '3', amount: 25.00, date: '2025-08-18', category: 'Fitaterana', description: 'Gas station', type: 'one-time', hasReceipt: true }
 ];
 
 const mockIncomes = [
