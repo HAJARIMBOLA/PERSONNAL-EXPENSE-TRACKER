@@ -3,17 +3,17 @@ import { PlusCircle, DollarSign, TrendingUp, TrendingDown, Calendar, Filter, Set
 
 // Mock data for demonstration
 const mockCategories = [
-  { id: '1', name: 'Food & Dining' },
-  { id: '2', name: 'Transportation' },
-  { id: '3', name: 'Entertainment' },
-  { id: '4', name: 'Utilities' },
-  { id: '5', name: 'Healthcare' }
+  { id: '1', name: 'Sakafo' },
+  { id: '2', name: 'Fitaterana' },
+  { id: '3', name: 'Fialam-boly' },
+  { id: '4', name: 'Fampiasam-bola' },
+  { id: '5', name: 'Fikarakarana' }
 ];
 
 const mockExpenses = [
-  { id: '1', amount: 45.50, date: '2025-08-20', category: 'Food & Dining', description: 'Lunch at restaurant', type: 'one-time', hasReceipt: true },
-  { id: '2', amount: 1200, date: '2025-08-01', category: 'Utilities', description: 'Monthly rent', type: 'recurring', startDate: '2025-01-01', endDate: null, hasReceipt: false },
-  { id: '3', amount: 25.00, date: '2025-08-18', category: 'Transportation', description: 'Gas station', type: 'one-time', hasReceipt: true }
+  { id: '1', amount: 45.50, date: '2025-08-20', category: 'Sakafo', description: 'Lunch at restaurant', type: 'one-time', hasReceipt: true },
+  { id: '2', amount: 1200, date: '2025-08-01', category: 'Fampiasam-bola', description: 'Monthly rent', type: 'recurring', startDate: '2025-01-01', endDate: null, hasReceipt: false },
+  { id: '3', amount: 25.00, date: '2025-08-18', category: 'Fitaterana', description: 'Gas station', type: 'one-time', hasReceipt: true }
 ];
 
 const mockIncomes = [
